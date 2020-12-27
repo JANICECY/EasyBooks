@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B97F79B25980DDF00800A65 /* DaoDynamicMarketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97F79425980DDF00800A65 /* DaoDynamicMarketClient.swift */; };
+		3B97F79C25980DDF00800A65 /* TestableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97F79525980DDF00800A65 /* TestableModel.swift */; };
+		3B97F79D25980DDF00800A65 /* DownloadedPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97F79625980DDF00800A65 /* DownloadedPackage.swift */; };
+		3B97F79E25980DDF00800A65 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97F79725980DDF00800A65 /* Network.swift */; };
 		3BDC2FEF25968823005EC227 /* EasyBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC2FEE25968823005EC227 /* EasyBooksApp.swift */; };
 		3BDC2FF125968823005EC227 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC2FF025968823005EC227 /* ContentView.swift */; };
 		3BDC2FF325968826005EC227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDC2FF225968826005EC227 /* Assets.xcassets */; };
 		3BDC2FF625968826005EC227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDC2FF525968826005EC227 /* Preview Assets.xcassets */; };
 		3BDC2FF825968826005EC227 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC2FF725968826005EC227 /* Persistence.swift */; };
 		3BDC2FFB25968826005EC227 /* EasyBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC2FF925968826005EC227 /* EasyBooks.xcdatamodeld */; };
+		3BDC30052597ABB8005EC227 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC30042597ABB8005EC227 /* LoginView.swift */; };
+		3BDC300A2597FD17005EC227 /* EBSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC30092597FD17005EC227 /* EBSubmitButton.swift */; };
+		3BDC300E2598002F005EC227 /* UserLoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC300D2598002F005EC227 /* UserLoginData.swift */; };
+		3BDC301225980070005EC227 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC301125980070005EC227 /* User.swift */; };
+		3BDC30162598039F005EC227 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC30152598039F005EC227 /* MainView.swift */; };
+		3BDC301A2598048D005EC227 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC30192598048D005EC227 /* LandingView.swift */; };
+		3BDC301E259806EB005EC227 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC301D259806EB005EC227 /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B97F79425980DDF00800A65 /* DaoDynamicMarketClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoDynamicMarketClient.swift; sourceTree = "<group>"; };
+		3B97F79525980DDF00800A65 /* TestableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestableModel.swift; sourceTree = "<group>"; };
+		3B97F79625980DDF00800A65 /* DownloadedPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadedPackage.swift; sourceTree = "<group>"; };
+		3B97F79725980DDF00800A65 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		3BDC2FEB25968823005EC227 /* EasyBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDC2FEE25968823005EC227 /* EasyBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyBooksApp.swift; sourceTree = "<group>"; };
 		3BDC2FF025968823005EC227 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +39,13 @@
 		3BDC2FF725968826005EC227 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3BDC2FFA25968826005EC227 /* EasyBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyBooks.xcdatamodel; sourceTree = "<group>"; };
 		3BDC2FFC25968826005EC227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDC30042597ABB8005EC227 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3BDC30092597FD17005EC227 /* EBSubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBSubmitButton.swift; sourceTree = "<group>"; };
+		3BDC300D2598002F005EC227 /* UserLoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginData.swift; sourceTree = "<group>"; };
+		3BDC301125980070005EC227 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3BDC30152598039F005EC227 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3BDC30192598048D005EC227 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		3BDC301D259806EB005EC227 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B97F79225980DDF00800A65 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3B97F79325980DDF00800A65 /* DaoClasses */,
+				3B97F79525980DDF00800A65 /* TestableModel.swift */,
+				3B97F79625980DDF00800A65 /* DownloadedPackage.swift */,
+				3B97F79725980DDF00800A65 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3B97F79325980DDF00800A65 /* DaoClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3B97F79425980DDF00800A65 /* DaoDynamicMarketClient.swift */,
+			);
+			path = DaoClasses;
+			sourceTree = "<group>";
+		};
 		3BDC2FE225968823005EC227 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +97,10 @@
 		3BDC2FED25968823005EC227 /* EasyBooks */ = {
 			isa = PBXGroup;
 			children = (
+				3B97F79225980DDF00800A65 /* Network */,
+				3BDC301025980066005EC227 /* Models */,
+				3BDC30082597FCA3005EC227 /* Global */,
+				3BDC30032597ABA0005EC227 /* Views */,
 				3BDC2FEE25968823005EC227 /* EasyBooksApp.swift */,
 				3BDC2FF025968823005EC227 /* ContentView.swift */,
 				3BDC2FF225968826005EC227 /* Assets.xcassets */,
@@ -73,6 +118,66 @@
 				3BDC2FF525968826005EC227 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BDC30032597ABA0005EC227 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BDC301C259806D9005EC227 /* DashboardView */,
+				3BDC301825980471005EC227 /* LandingView */,
+				3BDC301425980391005EC227 /* MainView */,
+				3BDC30072597FC98005EC227 /* LoginView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BDC30072597FC98005EC227 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				3BDC30042597ABB8005EC227 /* LoginView.swift */,
+				3BDC300D2598002F005EC227 /* UserLoginData.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		3BDC30082597FCA3005EC227 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				3BDC30092597FD17005EC227 /* EBSubmitButton.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		3BDC301025980066005EC227 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BDC301125980070005EC227 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BDC301425980391005EC227 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				3BDC30152598039F005EC227 /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		3BDC301825980471005EC227 /* LandingView */ = {
+			isa = PBXGroup;
+			children = (
+				3BDC30192598048D005EC227 /* LandingView.swift */,
+			);
+			path = LandingView;
+			sourceTree = "<group>";
+		};
+		3BDC301C259806D9005EC227 /* DashboardView */ = {
+			isa = PBXGroup;
+			children = (
+				3BDC301D259806EB005EC227 /* DashboardView.swift */,
+			);
+			path = DashboardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +250,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BDC2FF825968826005EC227 /* Persistence.swift in Sources */,
+				3B97F79D25980DDF00800A65 /* DownloadedPackage.swift in Sources */,
+				3BDC30162598039F005EC227 /* MainView.swift in Sources */,
 				3BDC2FF125968823005EC227 /* ContentView.swift in Sources */,
+				3BDC300A2597FD17005EC227 /* EBSubmitButton.swift in Sources */,
+				3B97F79E25980DDF00800A65 /* Network.swift in Sources */,
+				3BDC300E2598002F005EC227 /* UserLoginData.swift in Sources */,
+				3BDC301225980070005EC227 /* User.swift in Sources */,
+				3BDC301E259806EB005EC227 /* DashboardView.swift in Sources */,
+				3B97F79C25980DDF00800A65 /* TestableModel.swift in Sources */,
+				3B97F79B25980DDF00800A65 /* DaoDynamicMarketClient.swift in Sources */,
+				3BDC301A2598048D005EC227 /* LandingView.swift in Sources */,
 				3BDC2FFB25968826005EC227 /* EasyBooks.xcdatamodeld in Sources */,
+				3BDC30052597ABB8005EC227 /* LoginView.swift in Sources */,
 				3BDC2FEF25968823005EC227 /* EasyBooksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
