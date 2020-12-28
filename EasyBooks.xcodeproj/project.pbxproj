@@ -24,6 +24,10 @@
 		3BDC30162598039F005EC227 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC30152598039F005EC227 /* MainView.swift */; };
 		3BDC301A2598048D005EC227 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC30192598048D005EC227 /* LandingView.swift */; };
 		3BDC301E259806EB005EC227 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC301D259806EB005EC227 /* DashboardView.swift */; };
+		9661BC39259845A500AD4BF4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661BC38259845A500AD4BF4 /* CircleImage.swift */; };
+		968168FE2599001A00492295 /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968168FD2599001A00492295 /* SettingRow.swift */; };
+		968169112599409000492295 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968169102599409000492295 /* Setting.swift */; };
+		968169162599431900492295 /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968169152599431900492295 /* FeedBackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,10 @@
 		3BDC30152598039F005EC227 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3BDC30192598048D005EC227 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		3BDC301D259806EB005EC227 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		9661BC38259845A500AD4BF4 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		968168FD2599001A00492295 /* SettingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
+		968169102599409000492295 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		968169152599431900492295 /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +131,7 @@
 		3BDC30032597ABA0005EC227 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9661BC372598458F00AD4BF4 /* Components */,
 				3BDC301C259806D9005EC227 /* DashboardView */,
 				3BDC301825980471005EC227 /* LandingView */,
 				3BDC301425980391005EC227 /* MainView */,
@@ -152,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				3BDC301125980070005EC227 /* User.swift */,
+				968169102599409000492295 /* Setting.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,9 +185,27 @@
 		3BDC301C259806D9005EC227 /* DashboardView */ = {
 			isa = PBXGroup;
 			children = (
+				968169142599430200492295 /* SettingsView */,
 				3BDC301D259806EB005EC227 /* DashboardView.swift */,
+				968168FD2599001A00492295 /* SettingRow.swift */,
 			);
 			path = DashboardView;
+			sourceTree = "<group>";
+		};
+		9661BC372598458F00AD4BF4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9661BC38259845A500AD4BF4 /* CircleImage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		968169142599430200492295 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				968169152599431900492295 /* FeedBackView.swift */,
+			);
+			path = SettingsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BDC2FF825968826005EC227 /* Persistence.swift in Sources */,
+				9661BC39259845A500AD4BF4 /* CircleImage.swift in Sources */,
 				3B97F79D25980DDF00800A65 /* DownloadedPackage.swift in Sources */,
 				3BDC30162598039F005EC227 /* MainView.swift in Sources */,
+				968169162599431900492295 /* FeedBackView.swift in Sources */,
 				3BDC2FF125968823005EC227 /* ContentView.swift in Sources */,
 				3BDC300A2597FD17005EC227 /* EBSubmitButton.swift in Sources */,
 				3B97F79E25980DDF00800A65 /* Network.swift in Sources */,
@@ -263,6 +293,8 @@
 				3BDC301A2598048D005EC227 /* LandingView.swift in Sources */,
 				3BDC2FFB25968826005EC227 /* EasyBooks.xcdatamodeld in Sources */,
 				3BDC30052597ABB8005EC227 /* LoginView.swift in Sources */,
+				968169112599409000492295 /* Setting.swift in Sources */,
+				968168FE2599001A00492295 /* SettingRow.swift in Sources */,
 				3BDC2FEF25968823005EC227 /* EasyBooksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
